@@ -1,0 +1,28 @@
+       /* side navigator */
+        .side-nav {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(238, 203, 99, 1);
+            border-radius: 0 10px 10px 0;
+            padding: 10px;
+            z-index: 1000;
+        }
+
+        .side-nav-item {
+            text-align: center;
+            color: white;
+            padding: 4px;
+            margin: 18px 0;
+            cursor: pointer;
+            background: #D58E00;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .side-nav-item:hover {
+            background: #61D2E8;
+            color: #fff;
+        }
+
